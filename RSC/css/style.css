@@ -1,0 +1,139 @@
+/* A BIT OF TYPOGRAPHY */
+
+body
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+}
+
+h2 {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+		color: white;
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		align-self: center;
+		margin: auto;
+}
+
+h1, h3
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	color: white;
+}
+
+b
+{
+	font-weight: 700;
+}
+
+p
+{
+	margin: 2em 0 2em 0;
+}
+
+/* CENTRED CONTENT */
+
+.content
+{
+	margin: 2em auto;
+	max-width: 40em;
+	padding: 0 1em;
+}
+
+/* LOGO */
+
+.logo
+{
+
+	left:0;
+	top:0;
+	width: 50%;
+}
+
+
+.logo img
+{
+	width: 20%;
+	left:0;
+	top:0;
+}
+
+/* FULL-SIZE IMAGES */
+
+html, body
+{
+	height: 100%;
+}
+
+.full
+{
+	height: 100%;
+	background-color: black;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+#one
+{
+	background-image: url(../images/hero-image-top.jpg);
+}
+
+#two
+{
+	background-image: url(../images/arm.jpg);
+}
+
+#three
+{
+	background-image: url(../images/hands.jpg);
+}
+
+#four
+{
+	background-image: url(../images/grab.jpg);
+}
+
+#five
+{
+	background-image: url(../images/suspense.jpg);
+}
+
+/* MAILCHIMP FORM */
+
+#mc_embed_signup
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 30em;
+	height: 13em;
+	margin: -6.5em 0 0 -15em;
+
+	background: yellow;
+}
+
+input
+{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+input[type="email"]
+{
+	padding: .5em;
+}
+
+input[type="submit"]
+{
+	margin: 1em 0;
+	background-color: black;
+	color: yellow;
+	border-radius: .25em;
+	border: none;
+	padding: .5em;
+	/*font-size: 1.5em;*/
+}
