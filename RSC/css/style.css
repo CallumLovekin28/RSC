@@ -3,7 +3,7 @@
 body
 {
 	font-family: 'Source Sans Pro', sans-serif;
-	background-color: #640018;
+	background-color: #815167;
 }
 
 
@@ -125,7 +125,7 @@ html, body
 
 #two
 {
-	background-color: #640018;
+	background-color: #815167;
 	height: 80%;
 }
 
@@ -133,7 +133,7 @@ html, body
 {
 	width: 100%;
 	margin: auto;
-	background-color: #640018;
+	background-color: #815167;
 	height: 400px;
 }
 
@@ -150,26 +150,43 @@ html, body
 
 #four
 {
-	background-color: #484848;
+	background-color: #eeeeee;
+	height: 30%;
 }
 
-.#photos {
-  /* Prevent vertical gaps */
-  line-height: 0;
-
-  -webkit-column-count: 3;
-  -webkit-column-gap:   200px;
-  -moz-column-count:    3;
-  -moz-column-gap:      0px;
-  column-count:         3;
-  column-gap:           200px;
+#photos {
+width: 1500px;
+margin: auto;
+padding-top: 150px;
 }
 
+.rsclogo {
+	height: 100px;
+	float: left;
+
+}
+
+.ravelogo {
+	height: 100px;
+		float: left;
+		margin-left: 250px;
+}
+
+.dulwichlogo
+{
+	height: 100px;
+		float: left;
+			margin-left: 200px;
+			padding-top: 25px;
+}
+  /*
 #photos img {
-  /* Just in case there are inline attributes */
+Just in case there are inline attributes
   width: 30% !important;
   height: auto !important;
 }
+
+*/
 
 #five
 {
