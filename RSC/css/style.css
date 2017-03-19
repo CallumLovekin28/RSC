@@ -118,7 +118,7 @@ html, body
 		position: absolute;
 		bottom: 200px;
 		left: 600px;
-		font-size: 48px;
+		font-size: 70px;
 		width: 800px;
 		margin: auto;
 }
@@ -155,7 +155,7 @@ html, body
 }
 
 #photos {
-width: 1500px;
+width: 1400px;
 margin: auto;
 padding-top: 150px;
 }
@@ -169,7 +169,7 @@ padding-top: 150px;
 .ravelogo {
 	height: 100px;
 		float: left;
-		margin-left: 250px;
+		margin-left: 200px;
 }
 
 .dulwichlogo
